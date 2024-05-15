@@ -4,9 +4,9 @@
 
 // import 'dart:convert';
 
-import 'package:servicenow/views/inbox.dart';
-import 'package:servicenow/views/login.dart';
-import 'package:servicenow/views/dashboard.dart';
+import '../views/inbox.dart';
+import '../views/login.dart';
+import '../views/dashboard.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
@@ -101,7 +101,7 @@ class _AppState extends State<App> {
   }
 
   // Locale _locale = "en" as Locale;
-  Locale _locale = const Locale('es');
+  Locale _locale = const Locale('en');
 
   void setLocale(Locale value) {
     setState(() {
