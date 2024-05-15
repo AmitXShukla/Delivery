@@ -1,0 +1,17 @@
+{
+    "helloWorld": "¡Hola Mundo!",
+    "title": "Deliverify",
+    "cAppTitle": "Entregar",
+    "cMsg1": "Inicio de sesión correcto. Revise su configuración de usuario.",
+    "cMsg2": "Cerró sesión exitosamente.",
+    "cMsg3": "El correo electrónico para restablecer la contraseña se envía a su correo electrónico registrado.",
+    "cMsg4": "algo salió mal, comuníquese con su administrador.",
+    "cEmailID": "nombredeusuario@dominio.com",
+    "cEmailHint": "Identificación de correo *",
+    "cEnterPassword": "introducir la contraseña",
+    "cPassword": "contraseña",
+    "cSignGoogle": "Inicia sesión con Google",
+    "cNAccount": "crear una nueva cuenta",
+    "cFPassword": "Has olvidado tu contraseña",
+    "cSignIn": "Iniciar sesión"
+}

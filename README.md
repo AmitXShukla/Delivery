@@ -10,9 +10,10 @@ A free download to build a complete Truck/Services/delivery ride app in Flutter 
 [<img src="https://github.com/AmitXShukla/AmitXShukla.github.io/blob/master/assets/icons/medium.svg" width=40 height=50>](https://medium.com/@Amit-Shukla)
 [<img src="https://github.com/AmitXShukla/AmitXShukla.github.io/blob/master/assets/icons/twitter_1.svg" width=40 height=50>](https://twitter.com/ashuklax)
 
----
+
 ## [Video Tutorials](https://youtube.com/@Amit.Shukla)
----
+
+[Demo Page](https://amitxshukla.github.io/Delivery/)
 
 ![App Image](./images/app_image.png)
 
@@ -35,6 +36,7 @@ A free download to build a complete Truck/Services/delivery ride app in Flutter 
 - live maps
 - live push notifications
 - blue badge drivers
+- advance cloud code functions based security
 
 ## License Agreement
 

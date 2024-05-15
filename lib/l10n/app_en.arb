@@ -1,0 +1,20 @@
+{
+  "helloWorld": "Hello World!",
+  "@helloWorld": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "title": "Deliverify",
+  "cAppTitle": "Deliverify",
+  "cMsg1": "Login successful. Please review your user settings.",
+  "cMsg2": "Successfully signed out.",
+  "cMsg3": "Reset password email is sent to your registered email.",
+  "cMsg4": "something went wrong, please contact your Admin.",
+  "cEmailID": "username@domain.com",
+  "cEmailHint": "EmailID *",
+  "cEnterPassword": "enter password",
+  "cPassword": "Password",
+  "cSignGoogle": "Sign In with Google",
+  "cNAccount": "create new Account",
+  "cFPassword": "forgot password",
+  "cSignIn": "Sign In"
+}
