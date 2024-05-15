@@ -17,6 +17,11 @@ A free download to build a complete Truck/Services/delivery ride app in Flutter 
 
 ![App Image](./images/app_image.png)
 
+## Installation
+![App Image](./images/app_image_2.png)
+
+> Sign up at back4app.com and copy your keys into main.dart
+
 ## Features
 - Flutter, Parse Framework back-end (Back4App / MongoDB)
 - Multilingual
