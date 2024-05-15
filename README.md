@@ -1,11 +1,7 @@
 # Delivery Management App
-A delivery | service | Truck Ride Management app
+A free download to build a complete Truck/Services/delivery ride app in Flutter and Parse Framework (Back4app/MongoDB)
 
-## Delivery | Service | Ride App
-
-A free download to build a complete Truck/Services/delivery ride app.
-
-## Author: Amit Shukla
+`upgraded to DART 3.4 & Flutter 3.22`
 
 ## Connect
 
@@ -19,6 +15,26 @@ A free download to build a complete Truck/Services/delivery ride app.
 ---
 
 ![App Image](./images/app_image.png)
+
+## Features
+- Flutter, Parse Framework back-end (Back4App / MongoDB)
+- Multilingual
+- Dark and Light Theme
+- Driver and Customer
+- Bid based interface
+- Image/File uploads
+- Role based Architecture
+- App Message / Notification feature
+- email login verification
+
+## Pro Features
+- search nearby drivers
+- discounted rides
+- food, service and other deliveries
+- Advertise with us
+- live maps
+- live push notifications
+- blue badge drivers
 
 ## License Agreement
 
