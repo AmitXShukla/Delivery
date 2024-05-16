@@ -45,8 +45,8 @@ A free download to build a complete Truck/Services/delivery ride app in Flutter 
 
 ## License Agreement
 
-[License Information](https://github.com/AmitXShukla/Delivery/blob/master/LICENSE)
+[License Information](https://github.com/AmitXShukla/Delivery/blob/main/License)
 
 ## Privacy Policy
 
-[Privacy Policy](https://github.com/AmitXShukla/Delivery/blob/master/LICENSE)
+[Privacy Policy](https://github.com/AmitXShukla/Delivery/blob/main/License)
