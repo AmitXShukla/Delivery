@@ -14,7 +14,7 @@ class Rides extends StatefulWidget {
   , required this.setLocale});
 
   Function(bool useLightMode) handleBrightnessChange;
-  Function(Locale _locale) setLocale;
+  Function(Locale locale) setLocale;
   @override
   RidesState createState() => RidesState();
 }
