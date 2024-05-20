@@ -17,6 +17,8 @@ A free download to build a complete Truck/Services/delivery ride app in Flutter 
 
 ![App Image](./images/app_image.png)
 
+![Pro UI](./images/pro_ui.png)
+
 ## Installation
 ![App Image](./images/app_image_2.png)
 

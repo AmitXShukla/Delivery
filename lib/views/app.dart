@@ -4,9 +4,9 @@
 
 // import 'dart:convert';
 
-import '../views/inbox.dart';
-import '../views/login.dart';
-import '../views/dashboard.dart';
+import './inbox.dart';
+import './login.dart';
+import './dashboard.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
@@ -14,13 +14,13 @@ import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 import '../shared/constants.dart';
 // import '../shared/home.dart';
-import '../views/signup.dart';
-import '../views/settings.dart';
-import '../views/rides.dart';
-import '../views/message.dart';
-import '../views/ride.dart';
-import '../views/bids.dart';
-import '../views/bid.dart';
+import './signup.dart';
+import './settings.dart';
+import './rides.dart';
+import './message.dart';
+import './ride.dart';
+import './bids.dart';
+import './bid.dart';
 
 void main() async {
   // var analyzer = WebStartupAnalyzer(additionalFrameCount: 10);

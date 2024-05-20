@@ -381,6 +381,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.5.0"
+  outline_material_icons:
+    dependency: "direct main"
+    description:
+      name: outline_material_icons
+      sha256: "83b1d79676c6299731039ac0f0fa0ebcd0a562cde2f548bceb4960a349527f47"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.0"
   package_info_plus:
     dependency: transitive
     description:

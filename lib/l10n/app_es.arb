@@ -13,5 +13,7 @@
     "cSignGoogle": "Inicia sesión con Google",
     "cNAccount": "crear una nueva cuenta",
     "cFPassword": "Has olvidado tu contraseña",
-    "cSignIn": "Iniciar sesión"
+    "cSignIn": "Iniciar sesión",
+    "cWhereTo": "a donde?",
+    "cWhereToHint": "Ubicación"
 }

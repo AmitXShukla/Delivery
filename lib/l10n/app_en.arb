@@ -16,5 +16,7 @@
   "cSignGoogle": "Sign In with Google",
   "cNAccount": "create new Account",
   "cFPassword": "forgot password",
-  "cSignIn": "Sign In"
+  "cSignIn": "Sign In",
+  "cWhereTo": "Where to?",
+  "cWhereToHint": "Location"
 }

@@ -16,3 +16,29 @@ void main() async {
 
   runApp(const App());
 }
+
+// //
+// // comment prvious and uncomment below section
+// // pro ui code
+// //
+// import 'package:flutter/material.dart';
+// import 'views/pro_ui/shared/env.dart';
+// import 'views/pro_ui/shared/app_scroll.dart';
+// import './views/pro_ui/demo.dart';
+
+// void main() => runApp(App());
+
+// class App extends StatelessWidget {
+
+//   static String _pkg = "bubble_tab_bar";
+//   static String? get pkg => Env.getPackage(_pkg);
+
+//   @override
+//   Widget build(BuildContext context) {
+//     return MaterialApp(
+//       scrollBehavior: AppScrollBehavior(),
+//       debugShowCheckedModeBanner: false,
+//       home: BubbleTabBarDemo(),
+//     );
+//   }
+// }
