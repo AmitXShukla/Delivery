@@ -19,7 +19,7 @@ class ProLook extends StatefulWidget {
 }
 
 class ProLookState extends State<ProLook> {
-  bool _varpressed = false;
+  // bool _varpressed = false;
   @override
   void initState() {
     super.initState();

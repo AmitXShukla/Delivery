@@ -1,14 +1,14 @@
 // import 'package:shared/ui/placeholder/placeholder_image_with_text.dart';
 import 'package:delivery/shared/constants.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
+// import 'package:flutter/widgets.dart';
 import 'package:outline_material_icons/outline_material_icons.dart';
 
 class SavePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    bool isLandscape = MediaQuery.of(context).size.aspectRatio > 1;
-    var columnCount = isLandscape ? 3 : 2;
+    // bool isLandscape = MediaQuery.of(context).size.aspectRatio > 1;
+    // var columnCount = isLandscape ? 3 : 2;
 
     return const Column(
       children: [
@@ -95,6 +95,8 @@ class SavePage extends StatelessWidget {
                       Text("email"),
                       Text("address"),
                       Text("billing"),
+                      SizedBox(width: 10, height: 20,),
+                      Text("service provider"),
                     ],
                   ),
                 )

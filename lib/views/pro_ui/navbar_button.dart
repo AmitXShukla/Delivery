@@ -63,7 +63,7 @@ class _NavbarButtonState extends State<NavbarButton> with SingleTickerProviderSt
         //Label
         Text(
           widget.data.title,
-          style: TextStyle(color: Colors.white, fontFamily: "Montserrat", package: App.pkg),
+          style: TextStyle(color: Colors.white, fontFamily: "Montserrat", package: App.pkg), // error goes away after uncommenting main.dart file content
         ),
       ],
     );
