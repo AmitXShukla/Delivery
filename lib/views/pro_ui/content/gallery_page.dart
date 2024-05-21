@@ -10,9 +10,21 @@ class GalleryPage extends StatelessWidget {
     return Container(
       child: GridView.count(
         crossAxisCount: columnCount,
-        children: List.generate(20, (index) {
-          return Text("test ui");
-        }),
+        crossAxisSpacing: 2,
+        mainAxisSpacing: 2,
+        children: [
+          Image.asset("assets/food1.png"),
+          Image.asset("assets/food2.png"),
+          Image.asset("assets/food3.png"),
+          Image.asset("assets/food4.png"),
+          Image.asset("assets/food5.png"),
+          Image.asset("assets/food6.png"),
+          Image.asset("assets/food1.png"),
+          Image.asset("assets/food2.png"),
+        ]
+        // List.generate(20, (index) {
+        //   return Text("test ui");
+        // }),
       ),
     );
   }
