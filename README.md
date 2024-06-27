@@ -24,6 +24,59 @@ A free download to build a complete Truck/Services/delivery ride app in Flutter 
 
 > Sign up at back4app.com and copy your keys into main.dart
 
+```mermaid
+stateDiagram-v2
+        direction LRstateDiagram-v2
+        [*] --> signup
+        signup --> email
+        signup --> social
+        email --> login
+        social --> login
+        login --> Settings
+        dark_Mode --> Settings
+        multi_Lang --> Settings
+        reset_Password --> Settings
+        update_PhoneAddressEmail --> Settings
+        login --> Provider
+        login --> Rider
+        Rider --> Book
+        Book --> Bid
+        Offer --> Bid
+        Bid --> Messages
+        Settings --> Messages
+        Messages --> Settings
+        Provider --> Offer
+        Settings --> [*]
+        
+%% Define classes for coloring
+    classDef red fill:#ff8,stroke:#333,stroke-width:2px;
+    classDef green fill:#8fa,stroke:#333,stroke-width:2px;
+    classDef blue fill:#8af,stroke:#333,stroke-width:2px;
+    classDef orange fill:#f92,stroke:#333,stroke-width:2px;
+    classDef yellow fill:#56f,stroke:#333,stroke-width:2px;
+    classDef brown fill:#fe3,stroke:#333,stroke-width:2px;
+    classDef neil fill:#1ff,stroke:#333,stroke-width:2px;
+
+    %% Apply classes to states
+    class signup green
+    class email green
+    class social green
+    class login blue
+    class Rider orange
+    class Book orange
+    class Rider orange
+    class Provider orange
+    class Offer orange
+    class Bid brown
+    class dark_Mode neil
+    class multi_Lang neil
+    class reset_Password neil
+    class update_PhoneAddressEmail neil
+    class Settings brown
+    class Messages green
+    
+```
+
 ## Features
 - Flutter, Parse Framework back-end (Back4App / MongoDB)
 - Multilingual
