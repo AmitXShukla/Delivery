@@ -11,7 +11,7 @@ A free download to build a complete Truck/Services/delivery ride app in Flutter 
 [<img src="https://github.com/AmitXShukla/AmitXShukla.github.io/blob/master/assets/icons/twitter_1.svg" width=40 height=50>](https://twitter.com/ashuklax)
 
 
-## [Video Tutorials](https://youtube.com/@Amit.Shukla)
+## [Video Tutorials](https://www.youtube.com/playlist?list=PLp0TENYyY8lF4iUFdA5SRyNacw_w2mp2w)
 
 [Demo Page](https://amitxshukla.github.io/Delivery/)
 
