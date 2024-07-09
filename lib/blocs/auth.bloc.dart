@@ -22,7 +22,7 @@ class AuthBloc extends Object {
   signUpWithEmail(LoginDataModel model) async {
     final username = model.email.trim();
     final email = model.email.trim();
-    final password = model.email.trim();
+    final password = model.password.trim();
 
     final user = ParseUser(username, password, email);
     var response = await user.signUp();
@@ -310,6 +310,40 @@ class AuthBloc extends Object {
         } else {
         return false;
       }
+  }
+
+  setUserSettingsDoc(UserDataModel model) async {
+    final ParseCloudFunction function;
+    final Map<String, dynamic> params;
+    if (model.objectId == "-") {
+      function = ParseCloudFunction("setUserSettingsDoc");
+      params = <String, dynamic>{
+        'username': model.userName,
+        'userType': model.userType,
+        'name': model.name,
+        'email': model.email,
+        'phone': model.phone,
+        'address': model.address
+      };
+    } else {
+      function = ParseCloudFunction("updateUserSettingsDoc");
+      params = <String, dynamic>{
+        'objectId': model.objectId,
+        'username': model.userName,
+        'userType': model.userType,
+        'name': model.name,
+        'email': model.email,
+        'phone': model.phone,
+        'address': model.address
+      };
+    }
+ 
+    final ParseResponse parseResponse =
+      await function.executeObjectFunction<ParseObject>(parameters: params);
+    if (parseResponse.success && parseResponse.result != null) {
+      return true;
+    }
+    return false;
   }
 
   Future<bool> setSettings(UserDataModel model) async {
